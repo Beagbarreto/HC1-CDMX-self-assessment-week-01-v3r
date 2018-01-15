@@ -40,18 +40,22 @@ MDN
 var root = function(value){
   this.value = value;
   this.children = [];
-  //children come from root, have arrays that will be mapped
-  //array will have bucket in them
-};
 
-root.prototype.//(something) = function(value){
+  //children array, comes from root
+  //array will have bucket in them
+  //map will iterate through bucket
+};
+//Tree classes should be defined
+root.prototype.addChild = function(value){
 //Tree will have class, new one comes as copy of root
   var root1 = new Tree(value);
-  //children come from new tree
-  var branch2 = root1.addChild();
+  this.children.push(root1)
+  //add elements to children
+  return root1;
 };
-tree.prototype.map = function(){
-  //tree.map.prototype?
-
-  return Tree;
+//search through bucket
+root.prototype.map = function(){
+    var branch2 = root1.addchild(value);
+    Tree.children[].value;
 };
+//Map.prototype
