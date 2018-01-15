@@ -56,6 +56,6 @@ root.prototype.addChild = function(value){
 //search through bucket
 root.prototype.map = function(){
     var branch2 = root1.addchild(value);
-    Tree.children[].value;
+
 };
 //Map.prototype
