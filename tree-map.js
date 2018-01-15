@@ -18,6 +18,7 @@ MDN
   * but it should NOT modify the tree that was passed in.
   *
   * Example:
+
   *   var root1 = new Tree(1);
   *   var branch2 = root1.addChild(2);
   *   var branch3 = root1.addChild(3);
@@ -35,3 +36,11 @@ MDN
   *  newTree.children[1].children[1].value // 14
   *  root1.value // still 1
   */
+
+var root = function(value){
+  this.value = value;
+  this.children = [];
+};
+tree.prototype.map = function(){
+  return ;
+};
