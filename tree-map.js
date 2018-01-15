@@ -36,11 +36,22 @@ MDN
   *  newTree.children[1].children[1].value // 14
   *  root1.value // still 1
   */
-
+//create root funciont that will use tree classes
 var root = function(value){
   this.value = value;
   this.children = [];
+  //children come from root, have arrays that will be mapped
+  //array will have bucket in them
+};
+
+root.prototype.//(something) = function(value){
+//Tree will have class, new one comes as copy of root
+  var root1 = new Tree(value);
+  //children come from new tree
+  var branch2 = root1.addChild();
 };
 tree.prototype.map = function(){
-  return ;
+  //tree.map.prototype?
+
+  return Tree;
 };
